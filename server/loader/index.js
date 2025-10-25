@@ -6,5 +6,5 @@ export default async (app) => {
         console.log('Connection to Firebase Successfull ✅');
     }
     
-    express(app)
+    express(app);
 }

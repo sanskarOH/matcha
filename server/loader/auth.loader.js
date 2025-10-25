@@ -8,7 +8,8 @@ const oauth2Client = new google.auth.OAuth2(
     config.googleApi.redirect_uri
 );
 
-const SCOPES = ["https://www.googleapis.com/auth/gmail.readonly",];
+const SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"
+];
 
 export const getAuthUrl = () => {
     return oauth2Client.generateAuthUrl({
